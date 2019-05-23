@@ -1,0 +1,165 @@
+body{
+background-image: url("Coisos/textura.jpg");
+}
+input{
+color: grey;
+border-radius: 4px;
+display: inline-block;
+border: 1px solid #ccc;
+}
+.BigBob{
+position: absolute;
+top:300px;
+width:1500px;
+height:1500px;
+background-color: #f0f0f0;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.a {
+    position: relative;
+    background-color: rgb(230, 78, 78);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.b {
+    position: relative;
+    background-color: rgb(238, 223, 85);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.c {
+    position: relative;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.d {
+    position: relative;
+    background-color: rgb(66, 150, 228);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.e {
+    position: relative;
+    background-color: rgb(201, 80, 195);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.coiso {
+    position: absolute;
+    top: -10;
+    right: 1000;
+}
+.pro{
+    top: -300px;
+    left: -350px;
+    position: relative;
+    width: 350px;
+    height: 350px;
+}
+.proo{
+    top:-650px;
+    left:00px;
+    position: relative;
+    width: 350px;
+    height: 350px;
+}
+.prooo{
+    left:350px;
+    top:-1000px;
+    position: relative;
+    width: 350px;
+    height: 350px;
+}
+.orp{
+    position: absolute;
+    top: 217px;
+    left:225px;
+    width: 551px;
+    top:250;
+    height: 350px;
+}
+.orpp{
+    top: -299px;
+    left: 275px;
+    width: 500px;
+    position: relative;
+    height: 350px;
+}
+#googleMap{
+    position: relative;
+    left: 300px;
+    top: 900px;
+    width: 500px;
+    height: 400px;
+}
+p {
+    width: 300px;
+    position: relative;
+    left: 250px;
+    top: 100px;
+
+}
+.estrela {
+    position: relative;
+    left: -450px;
+    top: 100px
+}
+.bloco {
+    position: absolute;
+    background-color: white;
+    border-style: solid;
+    border-color: #c3c3c3;
+    border-radius: 5px;
+    width: 1000;
+    height: 1000;
+    left: -500px;
+    top: -1100px
+}
+h3{
+    color:c3c3c3;
+    width: 200px;
+
+}
+.ohmara{
+    height: 1000px;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css.css">
+<meta charset="UTF-8">
+<title>Pizzaria Bonito</title>
+</head>
+<body margin="0">
+<form>
+<input type="text" name="Pesquisar" class="coiso" value="Pesquisar" onfocus="if(this.value == 'Pesquisar') {this.value=''}" onblur="if(this.value == ''){this.value ='Pesquisar'}">
+</form>
+<img src="Coisos/logo.jpg" height="300">
+
+<div class="BigBob">
+    <center>
+    <button class="a" href="#">Cardápio</button>
+    <button class="b" href="#">Promoções</button>
+    <button class="c" href="#">Home</button>
+    <button class="d" href="#">Atendimento</button>
+    <button class="e" href="#">Sobremesas</button>
+    <h3>Mais Pedidas:</h3>
+    </center>
+<center class="ohmara">
+<div id="googleMap"></div>
+<img class="orp" src="Coisos/receitapizzamussarela-jpg.jpeg">
+<img class="orpp" src="Coisos/receitas-de-pizza-de-chocolate-730x449.jpg">
+<img class="pro" src="Coisos/img_pizza_calabresa_e_mussarela_4389_600.jpg">
+<img class="proo" src="Coisos/Blog-História-da-Pizza-Marguerita-660x420.jpg">
+<img class="prooo" src="Coisos/curiosidades-pizza-portuguesa.jpeg">
+</center>
+
+<script>
+function myMap() {
+var mapProp= {
+  center:new google.maps.LatLng(-23.535530,-46.474200),
+  zoom:10,
+};
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBOA3yiDX1kzEbsTyKfEDOXIE9Oqeg18sc&callback=myMap"></script>
+<img src="Coisos/Star_rating_5_of_5.png" style="width: 100px; height: 25px;" class="estrela">
+<p>"Melhor pizzaria de são paulo" - Faustão</p>
+</div>
+</body>
+</html>
